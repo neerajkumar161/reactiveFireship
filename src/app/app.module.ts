@@ -12,11 +12,13 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatCheckboxModule } from '@angular/material/checkbox';
 import { MatChipsModule } from '@angular/material/chips';
 import { ArrayFormComponent } from './array-form/array-form.component';
+import { ValidFormComponent } from './valid-form/valid-form.component';
 @NgModule({
   declarations: [
     AppComponent,
     BasicFormComponent,
-    ArrayFormComponent
+    ArrayFormComponent,
+    ValidFormComponent
   ],
   imports: [
     BrowserModule,
